@@ -7,3 +7,4 @@ def solution(s, skip, index):
         result +=alpha[(answer + index)%len(alpha)]
             
     return result
+

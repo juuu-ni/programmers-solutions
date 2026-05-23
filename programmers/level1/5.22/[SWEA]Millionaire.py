@@ -13,4 +13,4 @@ for t in range(T):
         else:
             total += max_price - price
 
-    print(f"#{t+1} {total}")d
+    print(f"#{t+1} {total}")

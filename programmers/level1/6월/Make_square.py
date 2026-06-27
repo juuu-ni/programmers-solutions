@@ -1,0 +1,15 @@
+def solution(arr):
+    row = len(arr)
+    col = len(arr[0])
+    
+    if row > col:
+        diff = row - col
+        for i in range(row):
+            arr[i].extend([0] * diff)
+            
+    elif col > row:
+        diff = col - row
+        for _ in range(diff):
+            arr.append([0] * col)
+            
+    return arr
